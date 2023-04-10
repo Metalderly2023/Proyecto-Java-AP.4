@@ -1,14 +1,23 @@
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class Programa {
     public static void main(String[] args) {
 
+    }
 
-        Equipo equipo1= new Equipo("Argentina");
-        Equipo equipo2= new Equipo("Brasil");
+        Path archivo1= Paths.get("Argentina vs Brasil.csv");
+        Scanner lector=new Scanner(archivo1);
+        while (hasnext()) {
+            String e1=lector.next();
+            int n1=lector.nextint();
+            String e2=lector.next();
+            int n2=lector.nextint();
+            Equipo equipo1 = new Equipo(e1);
+            Equipo equipo2 = new Equipo(e2);
 
-        Partido partido1= new Partido(equipo1,equipo2,2,0);
-
+            Partido partido1 = new Partido(equipo1, equipo2, n1, n2);
+        }
         Ronda ronda=new Ronda("1");
 
         ArrayList<Partido> partidos=new ArrayList<>();
