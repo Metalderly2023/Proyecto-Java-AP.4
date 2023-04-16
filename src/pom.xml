@@ -4,9 +4,14 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.example</groupId>
+    <groupId>Proyecto-Java-AP.4</groupId>
     <artifactId>src</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.3</version>
 
+   <properties>
+       <maven.compier.source>17</maven.compier.source>
+       <maven.compiler.target>17</maven.compiler.target>
+       <project.buil.sourceEncoding>UTF-8</project.buil.sourceEncoding>
+   </properties>
 
 </project>
