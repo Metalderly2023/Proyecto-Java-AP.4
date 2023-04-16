@@ -1,16 +1,17 @@
+import java.util.Scanner;
 import java.io.IOException;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
-import java.util.Scanner;
+
 
 public class Programa {
     public static void main(String[] args) throws IOException {
         Path archivo1=Paths.get("Resultados.csv");
         Path archivo2=Paths.get("Apuestas.csv");
 
-        Scanner lector1=new Scanner(archivo1);
-        Scanner lector2=new Scanner(archivo2);
+        Scanner lector1 = new Scanner(archivo1);
+        Scanner lector2 = new Scanner(archivo2);
         lector1.useDelimiter("[;]");
         lector2.useDelimiter("[;]");
         ArrayList<Partido> partidos=new ArrayList<>();
