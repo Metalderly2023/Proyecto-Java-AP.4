@@ -6,8 +6,8 @@ public class Ronda {
     private ArrayList<Pronostico> pronosticos;
 
     public Ronda(int numero) {
-        partidos=new ArrayList<>();
-        pronosticos=new ArrayList<>();
+        partidos=new ArrayList<Partido>();
+        pronosticos=new ArrayList<Pronostico>();
         this.numero = numero;
     }
 
