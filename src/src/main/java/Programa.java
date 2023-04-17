@@ -29,14 +29,19 @@ public class Programa {
         ArrayList<Pronostico> pronosticos = new ArrayList<Pronostico>();
 
 
+        Statement stt = connection.createStatement();
+        ResultSet ronda = stt.executeQuery("SELECT * FROM Resultados");
+        //Ronda ronda = new Ronda (ron);
+
         while (Rs.next()) {
             String e1 = Rs.getString("Equipo1");
             int goles1 = Rs.getInt("Goles");
             String e2 = Rs.getString("Equipo2");
             int goles2 = Rs.getInt("Goles2");
 
-        ResultSet ron = st.executeQuery("SELECT * FROM Resultados");
-        Ronda ronda = new Ronda(ron);
+        //Statement stt = connection.createStatement();
+        //ResultSet ronda = stt.executeQuery("SELECT * FROM Resultados");
+        //Ronda ronda = new Ronda (ron);
         /*
 
         while (lector1.hasNext()) {
@@ -53,7 +58,7 @@ public class Programa {
 
             partidos.add(partido1);
 
-            ronda.setPartidos(partidos);
+            ronda.getWarnings();
         }
 
         Rs.close();
@@ -68,6 +73,9 @@ public class Programa {
             String e2=lector2.next();
             int goles2=lector2.nextInt();
         */
+
+        //Statement stet = connection.createStatement();
+        //ResultSet rondas = stet.executeQuery("SELECT * FROM Apuestas");
         while (Ap.next()) {
             String nom = Ap.getString("Nombre");
             String ape = Ap.getString("Apellido");
@@ -98,7 +106,8 @@ public class Programa {
         /*ector2.close();
 
         ronda.aciertoPorRonda();
+        */
     }
 
-         */
+
 }
