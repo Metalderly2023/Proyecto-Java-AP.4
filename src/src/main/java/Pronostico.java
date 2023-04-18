@@ -10,10 +10,7 @@ public class Pronostico {
 
     @Override
     public String toString() {
-        return "Pronostico{" +
-                "partido=" + partido +
-                ", apostador=" + apostador +
-                '}';
+        return  "Segunda Ronda: " + partido + "\n";
     }
 
     public Partido getPartido() {

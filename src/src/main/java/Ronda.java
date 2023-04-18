@@ -33,11 +33,7 @@ public class Ronda {
 
     @Override
     public String toString() {
-        return "Ronda{" +
-                "numero='" + numero + '\'' +
-                ", partidos=" + partidos +
-                ", pronosticos=" + pronosticos +
-                '}';
+        return "Ronda: " + "numero: " + numero + '\n' + "pronosticos: " + pronosticos;
     }
 
     public void aciertoPorRonda(){
@@ -86,7 +82,7 @@ public class Ronda {
         if(resultado.equals(resultadop)){
             puntaje+=1;
         }
-        System.out.println(nom+" "+ape+" dni="+dni +" "+ "Puntaje= " +puntaje);
+        System.out.println(nom + " " + ape+ " dni=" + dni + " " + "Puntaje= " + puntaje);
 
     }
 }

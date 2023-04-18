@@ -13,12 +13,8 @@ public class Partido {
         this.golesEquipo2 = golesEquipo2;
     }
     public String toString() {
-        return "Partido{" +
-                "equipo1=" + equipo1 +
-                ", equipo2=" + equipo2 +
-                ", golesEquipo1=" + golesEquipo1 +
-                ", golesEquipo2=" + golesEquipo2 +
-                '}';
+
+        return "" + equipo1 +": "+  golesEquipo1 + " ; " + equipo2 +": "+  golesEquipo2 + "\n";
     }
 
     public Equipo getEquipo1() {

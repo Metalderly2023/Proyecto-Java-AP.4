@@ -13,16 +13,21 @@ public class Programa {
         Connection connection = DriverManager.getConnection("jdbc:mysql://localhost/Prode_BD", "root", "Oedsoltero*/40");
 
         Statement st = connection.createStatement();
-        ResultSet Ap = st.executeQuery("SELECT * FROM Apuestas");
-        ResultSet Rs = st.executeQuery("SELECT * FROM Resultados");
+        Statement st1 = connection.createStatement();
+        Statement st2 = connection.createStatement();
+
+        ResultSet Rr = st.executeQuery("SELECT * FROM Resultados");
+        ResultSet Rs = st1.executeQuery("SELECT * FROM Resultados");
+        ResultSet Ap = st2.executeQuery("SELECT * FROM Apuestas");
 
 
         ArrayList<Partido> partidos = new ArrayList<Partido>();
         ArrayList<Pronostico> pronosticos = new ArrayList<Pronostico>();
 
 
-
-        Ronda ronda = new Ronda (1);
+        Rr.next();
+        int ron = Rr.getInt("Ronda");
+        Ronda ronda = new Ronda (ron);
 
         while (Rs.next()) {
             String e1 = Rs.getString("Equipo1");
@@ -31,14 +36,20 @@ public class Programa {
             int goles2 = Rs.getInt("Goles2");
 
 
-            Equipo equipo1 = new Equipo(Rs.getString("Equipo1"));
-            Equipo equipo2 = new Equipo(Rs.getString("Equipo2"));
+
+            Equipo equipo1 = new Equipo(e1);
+            Equipo equipo2 = new Equipo(e2);
 
             Partido partido1 = new Partido(equipo1, equipo2, goles1, goles2);
 
             partidos.add(partido1);
 
             ronda.setPartidos(partidos);
+
+            System.out.println("Primera Ronda \n" + partido1);
+
+
+
         }
 
         while (Ap.next()) {
@@ -57,12 +68,25 @@ public class Programa {
 
             Partido partido2 = new Partido(equipo1, equipo2, goles1, goles2);
 
+            System.out.println("Segunda Ronda\n" + partido2);
+
             Pronostico pronostico = new Pronostico(partido2, apostador);
 
             pronosticos.add(pronostico);
 
             ronda.setPronosticos(pronosticos);
+
+
+            System.out.println(apostador);
+            System.out.println(" ");
+            System.out.println("Su Apuesta Fue:");
+            System.out.println(" ");
+            System.out.println(pronostico);
+
         }
+
+
+        Rr.close();
         Rs.close();
         Ap.close();
 
