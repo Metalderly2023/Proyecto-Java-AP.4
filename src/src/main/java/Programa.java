@@ -10,7 +10,7 @@ public class Programa {
     public static void main(String[] args) throws IOException, SQLException {
 
 
-        Connection connection = DriverManager.getConnection("jdbc:mysql://localhost/Prode_BD", "root", "Oedsoltero*/40");
+        Connection connection = DriverManager.getConnection("jdbc:mysql://localhost/Torneo", "root", "abrilyrocio123456");
 
         Statement st = connection.createStatement();
         Statement st1 = connection.createStatement();
@@ -46,10 +46,6 @@ public class Programa {
 
             ronda.setPartidos(partidos);
 
-            System.out.println("Primera Ronda \n" + partido1);
-
-
-
         }
 
         while (Ap.next()) {
@@ -57,7 +53,7 @@ public class Programa {
             String ape = Ap.getString("Apellido");
             int dni = Ap.getInt("Dni");
             String e1 = Ap.getString("Equipo1");
-            int goles1 = Ap.getInt("Goles");
+            int goles1 = Ap.getInt("Goles1");
             String e2 = Ap.getString("Equipo2");
             int goles2 = Ap.getInt("Goles2");
 
@@ -68,7 +64,6 @@ public class Programa {
 
             Partido partido2 = new Partido(equipo1, equipo2, goles1, goles2);
 
-            System.out.println("Segunda Ronda\n" + partido2);
 
             Pronostico pronostico = new Pronostico(partido2, apostador);
 
@@ -76,15 +71,8 @@ public class Programa {
 
             ronda.setPronosticos(pronosticos);
 
-
-            System.out.println(apostador);
-            System.out.println(" ");
-            System.out.println("Su Apuesta Fue:");
-            System.out.println(" ");
-            System.out.println(pronostico);
-
         }
-
+        ronda.aciertoPorRonda();
 
         Rr.close();
         Rs.close();
