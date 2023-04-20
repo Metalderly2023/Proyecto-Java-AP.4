@@ -82,7 +82,7 @@ public class Ronda {
         if(resultado.equals(resultadop)){
             puntaje+=1;
         }
-        System.out.println("Su Puntaje por Apuesta es de:  " + puntaje);
+        System.out.println("Su Puntaje por Apuesta es de: " + puntaje + " Por haber acertado");
 
     }
 }
