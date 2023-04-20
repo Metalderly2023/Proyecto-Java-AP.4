@@ -85,6 +85,8 @@ public class Programa {
 
         }
 
+        ronda.aciertoPorRonda();
+
 
         Rr.close();
         Rs.close();

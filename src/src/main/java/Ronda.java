@@ -47,14 +47,14 @@ public class Ronda {
 
             if (p.getGolesEquipo1() == p.getGolesEquipo2()) {
                 resultado = "Empate";
-                System.out.println("Partido= " + resultado);
+                //System.out.println("Partido= " + resultado);
             } else {
                 if (p.getGolesEquipo1() < p.getGolesEquipo2()) {
                     resultado = "Gano " + p.getEquipo2();
-                    System.out.println("Partido= " + resultado);
+                    //System.out.println("Partido= " + resultado);
                 } else {
                     resultado = "Gano " + p.getEquipo1();
-                    System.out.println("Partido= " + resultado);
+                    //System.out.println("Partido= " + resultado);
                 }
             }
 
@@ -66,14 +66,14 @@ public class Ronda {
 
             if (p.getPartido().getGolesEquipo1() == p.getPartido().getGolesEquipo2()) {
                 resultadop = "Empate";
-                System.out.println("Pronostico= " + resultadop);
+                //System.out.println("Pronostico= " + resultadop);
             } else {
                 if (p.getPartido().getGolesEquipo1() < p.getPartido().getGolesEquipo2()) {
                     resultadop = "Gano " + p.getPartido().getEquipo2();
-                    System.out.println("Pronostico= " + resultadop);
+                    //System.out.println("Pronostico= " + resultadop);
                 } else {
                     resultadop = "Gano " + p.getPartido().getEquipo1();
-                    System.out.println("Pronostico= " + resultadop);
+                    //System.out.println("Pronostico= " + resultadop);
                 }
             }
 
@@ -82,7 +82,7 @@ public class Ronda {
         if(resultado.equals(resultadop)){
             puntaje+=1;
         }
-        System.out.println(nom + " " + ape+ " dni=" + dni + " " + "Puntaje= " + puntaje);
+        System.out.println("Su Puntaje por Apuesta es de:  " + puntaje);
 
     }
 }
