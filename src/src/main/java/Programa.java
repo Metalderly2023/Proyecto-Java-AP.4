@@ -9,8 +9,8 @@ import java.util.ArrayList;
 public class Programa {
     public static void main(String[] args) throws IOException, SQLException {
 
-
-        Connection connection = DriverManager.getConnection("jdbc:mysql://localhost/Torneo", "root", "abrilyrocio123456");
+                                                                //"jdbc:mysql//localhost/Prode_BD", "root", "Oedsoltero*/40"
+        Connection connection = DriverManager.getConnection("jdbc:mysql://localhost/torneo", "root", "abrilyrocio123456");
 
         Statement st = connection.createStatement();
         Statement st1 = connection.createStatement();
@@ -46,6 +46,7 @@ public class Programa {
 
             ronda.setPartidos(partidos);
 
+
         }
 
         while (Ap.next()) {
@@ -64,15 +65,14 @@ public class Programa {
 
             Partido partido2 = new Partido(equipo1, equipo2, goles1, goles2);
 
-
             Pronostico pronostico = new Pronostico(partido2, apostador);
 
             pronosticos.add(pronostico);
 
             ronda.setPronosticos(pronosticos);
 
+
         }
-        ronda.aciertoPorRonda();
 
         Rr.close();
         Rs.close();
@@ -80,8 +80,6 @@ public class Programa {
 
         connection.close();
 
-
+        ronda.aciertoPorRonda();
     }
-
-
 }

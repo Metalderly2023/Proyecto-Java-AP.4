@@ -14,7 +14,7 @@ public class Partido {
     }
     public String toString() {
 
-        return "" + equipo1 +": "+  golesEquipo1 + " ; " + equipo2 +": "+  golesEquipo2 + "\n";
+        return "" + equipo1 +" "+  golesEquipo1 + " vs " + equipo2 +" "+  golesEquipo2 ;
     }
 
     public Equipo getEquipo1() {

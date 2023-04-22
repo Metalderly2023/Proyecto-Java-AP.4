@@ -32,7 +32,7 @@ public class Persona {
 
     @Override
     public String toString() {
-        return "Apostador: " + nombre + " " + apellido + " " + "DNI: " + dni;
+        return "Apostador: " + nombre + " " + apellido + " " + "DNI:" + dni;
 
     }
 }
