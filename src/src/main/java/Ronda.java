@@ -68,14 +68,14 @@ public class Ronda {
 
             if (p.getPartido().getGolesEquipo1() == p.getPartido().getGolesEquipo2()) {
                 resultadop = "Empate";
-                System.out.println("Pronostico= "+p.getPartido() +"= " + resultadop);
+                System.out.println("Apuesta= "+p.getPartido() +"= " + resultadop);
             } else {
                 if (p.getPartido().getGolesEquipo1() < p.getPartido().getGolesEquipo2()) {
                     resultadop = "Gano " + p.getPartido().getEquipo2();
-                    System.out.println("Pronostico= "+p.getPartido() + "= " +resultadop);
+                    System.out.println("Apuesta= "+p.getPartido() + "= " +resultadop);
                 } else {
                     resultadop = "Gano " + p.getPartido().getEquipo1();
-                    System.out.println("Pronostico= "+p.getPartido() +"= " + resultadop);
+                    System.out.println("Apuesta= "+p.getPartido() +"= " + resultadop);
                 }
             }
 
