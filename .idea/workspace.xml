@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="289a1909-b168-4756-b3ee-f4dd3d605c6b" name="Lista de cambios predeterminada" comment="ultimas modificaciones para la muestra del puntaje..">
+      <change afterPath="$PROJECT_DIR$/.attach_pid14883" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.attach_pid19922" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.attach_pid20173" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.attach_pid3772" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.attach_pid4559" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.attach_pid4881" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.attach_pid7283" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.attach_pid7381" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Cambios_no_confirmados_antes_de_27_4_23_15_10,_Obtener_[Lista_de_cambios_predeterminada]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Cambios_no_confirmados_antes_de_27_4_23_15_10,_Obtener_[Lista_de_cambios_predeterminada]1/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Java-AP.4" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Metalderly2023 &lt;osvaldoeverdiaz@gmail.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SIGN_OFF_COMMIT" value="true" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;history&quot;: [
+    {
+      &quot;state&quot;: &quot;OPEN&quot;,
+      &quot;author&quot;: &quot;Metalderly2023&quot;
+    }
+  ],
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;author&quot;: &quot;Metalderly2023&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="01180263-bd87-452d-9f82-fdd5828ef80c" />
+        <option name="url" value="https://github.com/Metalderly2023/Proyecto-Java-AP.4.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2OPtERc3kEespLA8acnoKIS1pWQ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "/home/deo/Música/pjap04/src",
+    "project.structure.last.edited": "Módulos",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "configurable.group.tools"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Programa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Programa" />
+      <module name="src" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Aplicación.Programa" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Tarea por defecto">
+      <changelist id="289a1909-b168-4756-b3ee-f4dd3d605c6b" name="Lista de cambios predeterminada" comment="" />
+      <created>1681473932921</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1681473932921</updated>
+    </task>
+    <task id="LOCAL-00001" summary="agrado la carpeta src">
+      <created>1681474062153</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1681474062153</updated>
+    </task>
+    <task id="LOCAL-00002" summary="agrado la carpeta src">
+      <created>1681474095525</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1681474095525</updated>
+    </task>
+    <task id="LOCAL-00003" summary="agrado las clases Ronda y Persona">
+      <created>1681474676777</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1681474676777</updated>
+    </task>
+    <task id="LOCAL-00004" summary="confirmado Ronda y Persona">
+      <created>1681474710149</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1681474710149</updated>
+    </task>
+    <task id="LOCAL-00005" summary="confirmado Ronda y Persona">
+      <created>1681474726447</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1681474726447</updated>
+    </task>
+    <task id="LOCAL-00006" summary="agregando en pom">
+      <created>1681684887528</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1681684887528</updated>
+    </task>
+    <task id="LOCAL-00007" summary="agregando en pom">
+      <created>1681684900181</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1681684900181</updated>
+    </task>
+    <task id="LOCAL-00008" summary="nuevas modificaciones con los csv">
+      <created>1681693554727</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1681693554727</updated>
+    </task>
+    <task id="LOCAL-00009" summary="nuevas modificaciones con los csv">
+      <created>1681693568184</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1681693568184</updated>
+    </task>
+    <task id="LOCAL-00010" summary="conexion a la Base de datos">
+      <created>1681743883059</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1681743883076</updated>
+    </task>
+    <task id="LOCAL-00011" summary="conexion a la Base de datos">
+      <created>1681743895490</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1681743895490</updated>
+    </task>
+    <task id="LOCAL-00012" summary="ahora el error salta en ronda.setPronostico.">
+      <created>1681755701772</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1681755701772</updated>
+    </task>
+    <task id="LOCAL-00013" summary="ya se conecta a la base">
+      <created>1681767208488</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1681767208488</updated>
+    </task>
+    <task id="LOCAL-00014" summary="ya se conecta a la base y reparando otros errores">
+      <created>1681767233365</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1681767233365</updated>
+    </task>
+    <task id="LOCAL-00015" summary="ya se conecta a la base y reparando otros errores">
+      <created>1681798526446</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1681798526446</updated>
+    </task>
+    <task id="LOCAL-00016" summary="cambie todos los tuString y agrege unos constructores que al parecer lo hacia borrado.">
+      <created>1681798652931</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1681798652931</updated>
+    </task>
+    <task id="LOCAL-00017" summary="ultimas modificaciones para la muestra del puntaje">
+      <created>1682010867851</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1682010867851</updated>
+    </task>
+    <task id="LOCAL-00018" summary="ultimas modificaciones para la muestra del puntaje.">
+      <created>1682010888283</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1682010888283</updated>
+    </task>
+    <task id="LOCAL-00019" summary="ultimas modificaciones para la muestra del puntaje.">
+      <created>1682011554396</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1682011554396</updated>
+    </task>
+    <task id="LOCAL-00020" summary="ultimas modificaciones para la muestra del puntaje..">
+      <created>1682011573083</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1682011573083</updated>
+    </task>
+    <task id="LOCAL-00021" summary="ultimas modificaciones para la muestra del puntaje..">
+      <created>1682012483321</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1682012483321</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:com.google.protobuf:protobuf-java" />
+  </component>
+  <component name="UpdateCopyrightCheckinHandler">
+    <option name="UPDATE_COPYRIGHT" value="true" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="User">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="*" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/Osvaldo-Diaz" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="user">
+                    <value>
+                      <list>
+                        <option value="*" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="agrado la carpeta src" />
+    <MESSAGE value="agrado las clases Ronda y Persona" />
+    <MESSAGE value="confirmado Ronda y Persona" />
+    <MESSAGE value="agregando en pom" />
+    <MESSAGE value="nuevas modificaciones con los csv" />
+    <MESSAGE value="conexion a la Base de datos" />
+    <MESSAGE value="ahora el error salta en ronda.setPronostico." />
+    <MESSAGE value="ya se conecta a la base" />
+    <MESSAGE value="ya se conecta a la base y reparando otros errores" />
+    <MESSAGE value="funciona todo ahora" />
+    <MESSAGE value="cambie todos los tuString y agrege unos constructores que al parecer lo hacia borrado." />
+    <MESSAGE value="ultimas modificaciones para la muestra del puntaje" />
+    <MESSAGE value="ultimas modificaciones para la muestra del puntaje." />
+    <MESSAGE value="ultimas modificaciones para la muestra del puntaje.." />
+    <option name="LAST_COMMIT_MESSAGE" value="ultimas modificaciones para la muestra del puntaje.." />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
