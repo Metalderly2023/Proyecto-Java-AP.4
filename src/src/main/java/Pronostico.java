@@ -9,13 +9,9 @@ public class Pronostico {
     }
 
     @Override
-    public String toString() {
-        return  "Segunda Ronda: " + partido + "\n";
-    }
+    public String toString() { return "" +partido; }
 
-    public Partido getPartido() {
-        return partido;
-    }
+    public Partido getPartido() { return partido; }
 
     public void setPartido(Partido partido) {
         this.partido = partido;

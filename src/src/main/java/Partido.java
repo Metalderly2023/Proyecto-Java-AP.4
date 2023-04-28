@@ -6,15 +6,37 @@ public class Partido {
     private int golesEquipo1;
     private int golesEquipo2;
 
-    public Partido(Equipo equipo1, Equipo equipo2, int golesEquipo1, int golesEquipo2) {
+    private String ganador;
+
+    private int numero;
+
+    public String getGanador() {
+        return ganador;
+    }
+
+    public void setGanador(String ganador) {
+        this.ganador = ganador;
+    }
+
+    public int getNumero() {
+        return numero;
+    }
+
+    public void setNumero(int numero) {
+        this.numero = numero;
+    }
+
+    public Partido(Equipo equipo1, Equipo equipo2, int golesEquipo1, int golesEquipo2, String ganador, int numero) {
         this.equipo1 = equipo1;
         this.equipo2 = equipo2;
         this.golesEquipo1 = golesEquipo1;
         this.golesEquipo2 = golesEquipo2;
+        this.ganador = ganador;
+        this.numero = numero;
     }
     public String toString() {
 
-        return "" + equipo1 +" "+  golesEquipo1 + " vs " + equipo2 +" "+  golesEquipo2 ;
+        return "" + equipo1 +" "+  golesEquipo1 + " vs " + equipo2 +" "+  golesEquipo2 +" "+ganador ;
     }
 
     public Equipo getEquipo1() {

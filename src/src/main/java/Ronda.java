@@ -31,64 +31,40 @@ public class Ronda {
 
     public void setPronosticos(ArrayList<Pronostico> pronosticos) { this.pronosticos = pronosticos; }
 
+    public void agregarPartido(Partido unPartido){partidos.add(unPartido);}
+    public void agregarPronostico(Pronostico unPronostico){pronosticos.add(unPronostico);}
+
     @Override
     public String toString() {
-        return "Ronda: " + "numero: " + numero + '\n' + "pronosticos: " + pronosticos;
+        return "Ronda: " + numero ;
     }
 
     public void aciertoPorRonda(){
-
         int puntaje=0;
 
-        String resultado="";
-        String resultadop="";
-        String nom="";
-        String ape="";
-        int dni=0;
-        for (Partido p:partidos ) {
 
-            if (p.getGolesEquipo1() == p.getGolesEquipo2()) {
-                resultado = "Empate";
-                System.out.println("Partido= "+p+"= " +resultado);
-            } else {
-                if (p.getGolesEquipo1() < p.getGolesEquipo2()) {
-                    resultado = "Gano " + p.getEquipo2();
-                    System.out.println("Partido= "+p+"= " + resultado);
-                } else {
-                    resultado = "Gano " + p.getEquipo1();
-                    System.out.println("Partido= "+p+"= " + resultado);
+        for (Pronostico p : pronosticos) {
+            System.out.println("Apuesta  = "+p.getPartido());
+            for (Partido pa:partidos ) {
+                if(p.getPartido().getNumero()==pa.getNumero()){
+                    System.out.println("Resultado= "+pa);
+                    if(p.getPartido().getGanador().equals(pa.getGanador())){
+                        puntaje=puntaje+1;
+                    }
+
                 }
+
+
             }
-
-        }
-        for (Pronostico p:pronosticos ) {
-            nom=p.getApostador().getNombre();
-            ape=p.getApostador().getApellido();
-            dni=p.getApostador().getDni();
-
-            if (p.getPartido().getGolesEquipo1() == p.getPartido().getGolesEquipo2()) {
-                resultadop = "Empate";
-                System.out.println("Apuesta= "+p.getPartido() +"= " + resultadop);
-            } else {
-                if (p.getPartido().getGolesEquipo1() < p.getPartido().getGolesEquipo2()) {
-                    resultadop = "Gano " + p.getPartido().getEquipo2();
-                    System.out.println("Apuesta= "+p.getPartido() + "= " +resultadop);
-                } else {
-                    resultadop = "Gano " + p.getPartido().getEquipo1();
-                    System.out.println("Apuesta= "+p.getPartido() +"= " + resultadop);
-                }
-            }
-
+            System.out.println("su puntaje es= "+puntaje);
 
         }
 
-        if(resultado.equals(resultadop)){
-            puntaje=1;
-        }
-        int total=+puntaje;
-        System.out.println(" ");
-        System.out.println("Apostador: "+nom+" "+ape+" "+"Dni= "+dni);
-        System.out.println("Su Puntaje por Apuesta es = " + puntaje);
+
+
+
+
 
     }
+
 }

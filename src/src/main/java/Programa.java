@@ -21,10 +21,6 @@ public class Programa {
         ResultSet Ap = st2.executeQuery("SELECT * FROM Apuestas");
 
 
-        ArrayList<Partido> partidos = new ArrayList<Partido>();
-        ArrayList<Pronostico> pronosticos = new ArrayList<Pronostico>();
-
-
         Rr.next();
         int ron = Rr.getInt("Ronda");
         Ronda ronda = new Ronda (ron);
@@ -34,19 +30,15 @@ public class Programa {
             int goles1 = Rs.getInt("Goles1");
             String e2 = Rs.getString("Equipo2");
             int goles2 = Rs.getInt("Goles2");
-
-
+            String ganador = Rs.getString("ganador");
+            int numero = Rs.getInt("id");
 
             Equipo equipo1 = new Equipo(e1);
             Equipo equipo2 = new Equipo(e2);
 
-            Partido partido1 = new Partido(equipo1, equipo2, goles1, goles2);
+            Partido partido1 = new Partido(equipo1, equipo2, goles1, goles2,ganador,numero);
 
-            partidos.add(partido1);
-
-            ronda.setPartidos(partidos);
-
-
+            ronda.agregarPartido(partido1);
         }
 
         while (Ap.next()) {
@@ -57,21 +49,19 @@ public class Programa {
             int goles1 = Ap.getInt("Goles1");
             String e2 = Ap.getString("Equipo2");
             int goles2 = Ap.getInt("Goles2");
+            String ganador = Ap.getString("ganador");
+            int numero = Ap.getInt("id");
 
             Equipo equipo1 = new Equipo(e1);
             Equipo equipo2 = new Equipo(e2);
 
             Persona apostador = new Persona(nom, ape, dni);
 
-            Partido partido2 = new Partido(equipo1, equipo2, goles1, goles2);
+            Partido partido1 = new Partido(equipo1, equipo2, goles1, goles2,ganador,numero);
 
-            Pronostico pronostico = new Pronostico(partido2, apostador);
+            Pronostico pronostico = new Pronostico(partido1, apostador);
 
-            pronosticos.add(pronostico);
-
-            ronda.setPronosticos(pronosticos);
-
-
+            ronda.agregarPronostico(pronostico);
         }
 
         Rr.close();
