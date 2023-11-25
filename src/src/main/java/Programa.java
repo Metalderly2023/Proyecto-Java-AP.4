@@ -9,7 +9,7 @@ import java.util.ArrayList;
 public class Programa {
     public static void main(String[] args) throws IOException, SQLException {
 
-                                                                //"jdbc:mysql//localhost/Prode_BD", "root", "Oedsoltero*/40"
+                                                                //"jdbc:mysql//localhost/Prode_BD", "root", "contraseña"
         Connection connection = DriverManager.getConnection("jdbc:mysql://localhost/torneo", "root", "abrilyrocio123456");
 
         Statement st = connection.createStatement();
